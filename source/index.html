@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf8">
+    <title>Google Maps Storelocator</title>
+    <style type="text/css">
+        html, body, .map-canvas {
+            top: 40px;
+            bottom: 0;
+            width: 100%
+        }
+        body {
+            margin: 0;
+        }
+        .map-canvas {
+            position: absolute;
+        }
+    </style>
+</head>
+<body>
+    <div class="actions">
+        <label>Filter 1</label><input name="filter_1" id="filter-1" type="checkbox" checked="checked">
+        <label>Filter 2</label><input name="filter_2" id="filter-2" type="checkbox" checked="checked">
+        <button id="nearyby">In der Nähe</button>
+    </div>
+    <div id="map-canvas" class="map-canvas"></div>
+    <script type="text/javascript" src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script type="text/javascript" src="http://maps.googleapis.com/maps/api/js?sensor=true"></script>
+    <script type="text/javascript" src="javascript/markerclusterer_compiled.js"></script>
+    <script type="text/javascript" src="javascript/googlemaps.js"></script>
+    <script type="text/javascript" src="javascript/main.js"></script>
+</body>
+</html>

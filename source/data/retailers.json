@@ -1,0 +1,498 @@
+[
+    {
+        "lat": 49.98357,
+        "lng": 9.15138,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.2259925,
+        "lng": 8.9434036,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 52.2799082,
+        "lng": 8.0761051,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 53.15855,
+        "lng": 8.17205,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 50.3116002,
+        "lng": 12.3327993,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 52.3695342,
+        "lng": 7.7201808,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 49.99649,
+        "lng": 8.2755,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 47.3717504,
+        "lng": 8.5163417,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 46.7957508,
+        "lng": 9.8214397,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 49.1519625,
+        "lng": 7.7764487,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "true"
+    },
+    {
+        "lat": 47.65128,
+        "lng": 8.56993,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 54.7184376,
+        "lng": 9.6710416,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.2705248,
+        "lng": 7.1978728,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 48.629559,
+        "lng": 8.07182,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.7289683,
+        "lng": 8.2861516,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.861905,
+        "lng": 8.2575913,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.80011,
+        "lng": 6.765518,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.134,
+        "lng": 8.90613,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.8553283,
+        "lng": 9.9637165,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.3949436,
+        "lng": 8.4412367,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.1983939,
+        "lng": 8.5787894,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.4730211,
+        "lng": 7.7674596,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.56814,
+        "lng": 12.36443,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 48.960082,
+        "lng": 8.2963354,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.3530729,
+        "lng": 9.3098562,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 53.5835197,
+        "lng": 9.9698244,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.84328,
+        "lng": 7.856707,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.53813,
+        "lng": 7.02171,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.7888572,
+        "lng": 11.8317978,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.2009462,
+        "lng": 6.6872607,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.66367,
+        "lng": 9.76322,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.70996,
+        "lng": 7.27815,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 53.5814,
+        "lng": 9.98809,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.639156,
+        "lng": 8.0806117,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.21936,
+        "lng": 8.37342,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 48.0763999,
+        "lng": 8.6404559,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.962388,
+        "lng": 9.7644,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.4665017,
+        "lng": 9.0456583,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.3838054,
+        "lng": 8.5309255,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.03626,
+        "lng": 8.70923,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.2099529,
+        "lng": 10.4625486,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "false",
+        "filter_2": "true"
+    },
+    {
+        "lat": 53.16753,
+        "lng": 7.35418,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.4226,
+        "lng": 6.84465,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.3655558,
+        "lng": 8.3080944,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.9353657,
+        "lng": 8.8771427,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.31576,
+        "lng": 6.74923,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.44203,
+        "lng": 13.58785,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.3760691,
+        "lng": 8.543845,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.048901,
+        "lng": 8.3067279,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.5200402,
+        "lng": 8.8201595,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 53.584837,
+        "lng": 9.9812854,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.659231,
+        "lng": 5.6146081,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 48.74174,
+        "lng": 9.12932,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 48.7418118,
+        "lng": 9.1292003,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.366965,
+        "lng": 4.8893685,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 50.723022,
+        "lng": 10.453059,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 47.4088163,
+        "lng": 9.4451088,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 51.8560449,
+        "lng": 7.4866392,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.4658939,
+        "lng": 13.3290964,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 49.4623055,
+        "lng": 8.9843934,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 52.10768,
+        "lng": 8.16133,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    },
+    {
+        "lat": 53.0104373,
+        "lng": 8.7893845,
+        "name": "Test",
+        "info_text": "<h2>Test</h2>",
+        "filter_1": "true",
+        "filter_2": "false"
+    }
+]
