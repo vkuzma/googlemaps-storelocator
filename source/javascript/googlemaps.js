@@ -17,6 +17,7 @@ function GoogleMaps(options) {
     // Marker cluster (from google-maps-utility-library-v3)
     this.marker_cluster = null;
     this.marker_cluster_options = null;
+    this.enable_marker_cluster = false;
 
     for(var key in options)
         this[key] = options[key];
@@ -58,7 +59,9 @@ GoogleMaps.prototype = {
             };
         }
 
-        this.marker_cluster = new MarkerClusterer(this.map, [], this.marker_cluster_options);
+        if(this.enable_marker_cluster) {
+            this.marker_cluster = new MarkerClusterer(this.map, [], this.marker_cluster_options);
+        }
     },
     build_markers: function(data) {
         this.clear_markers();
@@ -72,10 +75,15 @@ GoogleMaps.prototype = {
             var info_window = this.create_info_window(marker, data[i].detail_text);
             this.markers.push(marker);
             this.info_windows.push(info_window);
+            data[i].marker  = marker;
+            data[i].info_window  = info_window;
         }
         this.visible_markers = this.markers;
         this.add_click_listener();
-        this.build_clusters();
+
+        if(this.enable_marker_cluster) {
+            this.build_clusters();
+        }
     },
     clear_markers: function() {
         if(this.markers) {
@@ -94,7 +102,8 @@ GoogleMaps.prototype = {
             var marker = new google.maps.Marker({
             position: new google.maps.LatLng(location.lat, location.lng),
             map: this.map,
-            title: location.name
+            title: location.name,
+            icon: location.icon
         });
         return marker;
     },
@@ -111,10 +120,25 @@ GoogleMaps.prototype = {
                 }
                 var info_window = this.info_windows[$(this.markers).index(value)];
                 info_window.open(this.map, value);
-                this.set_center(this.get_location_with_offset(value.getPosition()));
                 this.info_window = info_window;
-                this.set_zoom('detail');
+                this.center_to_markers([value]);
             }, this));
+
+            google.maps.event.addListener(value, 'mouseover', function() {
+                for(var key in this.markers) {
+                    this.markers[key].setOpacity(0.7);
+                    this.markers[key].setZIndex(5);
+                }
+
+                value.setOpacity(1);
+                value.setZIndex(10);
+            });
+
+            google.maps.event.addListener(value, 'mouseout', function() {
+                for(var key in this.markers) {
+                    this.markers[key].setOpacity(1);
+                }
+            });
         }, this));
     },
     open_marker: function(store) {
@@ -155,14 +179,25 @@ GoogleMaps.prototype = {
     set_center: function(location) {
          this.map.setCenter(location);
     },
+    fitBounds: function() {
+        this.center_to_markers(this.markers);
+    },
     center_to_markers: function(markers) {
         var bounds = new google.maps.LatLngBounds();
+
         $(markers).each(function(key, value) {
             bounds.extend(value.getPosition());
         });
         if(this.current_location_marker)
             bounds.extend(this.current_location_marker.getPosition());
         this.map.setCenter(bounds.getCenter());
+
+        if(this.fitOffset) {
+            var extendPoint1 = new google.maps.LatLng(bounds.getNorthEast().lat() + this.fitOffset, bounds.getNorthEast().lng() + this.fitOffset);
+            var extendPoint2 = new google.maps.LatLng(bounds.getNorthEast().lat() - this.fitOffset, bounds.getNorthEast().lng() - this.fitOffset);
+            bounds.extend(extendPoint1);
+            bounds.extend(extendPoint2);
+        }
 
         this.map.fitBounds(bounds);
     },
@@ -331,8 +366,6 @@ Storefinder.prototype = {
         var markers = this.google_maps.get_nearest_destinations(location);
         this.google_maps.add_current_marker(location);
         this.google_maps.center_to_markers.call(this.google_maps, markers);
-        if(markers.length < 2)
-            this.google_maps.set_zoom('detail');
     },
     // in stores list
     add_click_listener: function(stores) {
@@ -342,7 +375,7 @@ Storefinder.prototype = {
                 for(var i = 0; i < stores.length; i++) {
                     if($(stores[i].open_marker_link).attr('id') == $(event.currentTarget).attr('id')) {
                         this.google_maps.open_marker(stores[i]);
-                        this.google_maps.set_zoom('detail');
+                        this.google_maps.center_to_markers([stores[i].marker]);
                         break;
                     }
                 }
@@ -356,5 +389,5 @@ Storefinder.prototype = {
             }
         }
         return null;
-    }
+    },
 };
